@@ -1,1 +1,1 @@
-web: gunicorn railtest.wsgi
+web: python manage.py migrate && gunicorn railtest.wsgi
